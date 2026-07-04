@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary accent: matches --color-accent in the web app -->
+    <color name="accent">#5B3FED</color>
+    <color name="splash_background">#5B3FED</color>
+</resources>
