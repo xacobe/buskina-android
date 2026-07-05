@@ -1,0 +1,44 @@
+Categories:
+  - Transportation
+License: MIT
+AuthorName: Xacobe M. Arostegui
+SourceCode: https://github.com/xacobe/buskina-android
+IssueTracker: https://github.com/xacobe/buskina-android/issues
+Website: https://buskina.com
+
+Name: Buskina
+Summary: Bus navigation app for cities in Burkina Faso
+Description: |
+  Buskina is an open-source transit navigation app for cities in Burkina Faso.
+
+  Find bus routes, browse stops, and plan trips across Ouagadougou and
+  Bobo-Dioulasso — with offline support so it works without a data connection.
+
+  Features:
+  * Search itineraries between any two stops
+  * Browse all lines and stops in your city
+  * Offline routing (no internet needed once data is cached)
+  * Save favourite stops, lines, and itineraries
+  * Bus stop locations sourced from OpenStreetMap
+
+  The app loads the Buskina progressive web app (https://buskina.com) in a
+  native WebView with geolocation support.
+
+  The full source code — including routing server, GTFS pipeline, and
+  frontend — is available at https://github.com/xacobe/buskina
+
+RepoType: git
+Repo: https://github.com/xacobe/buskina-android
+
+Builds:
+  - versionName: '1.0.0'
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - release
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0.0'
+CurrentVersionCode: 1
