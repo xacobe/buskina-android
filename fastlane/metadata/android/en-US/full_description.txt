@@ -1,0 +1,12 @@
+Buskina is an open-source transit navigation app for cities in Burkina Faso.
+
+Find bus routes, browse stops, and plan trips across Ouagadougou and Bobo-Dioulasso — with offline support so it works without a data connection.
+
+Features:
+* Search itineraries between any two stops
+* Browse all lines and stops in your city
+* Offline routing — no internet required once data is cached
+* Save favourite stops, lines, and itineraries
+* Bus stop locations sourced from OpenStreetMap
+
+The app loads the Buskina progressive web app (https://buskina.com) in a native WebView with geolocation support. The full source code — including the routing server, GTFS pipeline, and frontend — is available at https://github.com/xacobe/buskina

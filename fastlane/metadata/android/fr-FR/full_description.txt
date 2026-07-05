@@ -1,0 +1,12 @@
+Buskina est une application de navigation en transport en commun pour les villes du Burkina Faso.
+
+Trouvez des itinéraires en bus, consultez les arrêts et planifiez vos trajets à Ouagadougou et Bobo-Dioulasso — avec un mode hors-ligne pour fonctionner sans connexion internet.
+
+Fonctionnalités :
+* Recherche d'itinéraires entre deux arrêts
+* Consultation de toutes les lignes et arrêts de votre ville
+* Navigation hors-ligne — aucune connexion requise une fois les données mises en cache
+* Sauvegarde de vos arrêts, lignes et itinéraires favoris
+* Positions des arrêts issues d'OpenStreetMap
+
+L'application charge la PWA Buskina (https://buskina.com) dans un WebView natif avec support de la géolocalisation. Le code source complet — serveur de routage, pipeline GTFS et frontend — est disponible sur https://github.com/xacobe/buskina
