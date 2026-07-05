@@ -65,7 +65,6 @@ class MainActivity : AppCompatActivity() {
         webView.settings.apply {
             javaScriptEnabled = true
             domStorageEnabled = true   // localStorage: favorites, settings, offline data
-            databaseEnabled = true
             loadWithOverviewMode = true
             useWideViewPort = true
             setSupportZoom(false)
